@@ -1,0 +1,6 @@
+# 以下のコマンドはgitをインストールした後、git-CMDで実行
+# ユーザーネームを登録
+git config --global user.name "Marron-Chocola"
+
+# e-mailを登録
+git config --global user.email hiurax@gmail.com
