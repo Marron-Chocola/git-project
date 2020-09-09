@@ -1,6 +1,22 @@
+# ローカルリポジトリの作成
+git init
+
+# カレントディレクトリに.gitファイルが出来上がる。
+.git
+
 # 以下のコマンドはgitをインストールした後、git-CMDで実行
 # ユーザーネームを登録
 git config --global user.name "Marron-Chocola"
 
 # e-mailを登録
 git config --global user.email hiurax@gmail.com
+
+# ステージングエリアに追加
+git add
+
+# ローカルリポジトリに登録
+git commit
+
+# 
+# オリジンマスターへプッシュ
+git push -u origin master
